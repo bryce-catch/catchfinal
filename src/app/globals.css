@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff7eb; /* match landing hero cream */
+  --foreground: #253158;
+}
+
+@font-face {
+  font-family: "Xplor";
+  src: url("/fonts/xplor.woff2") format("woff2"),
+    url("/fonts/xplor.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Xplor", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  min-height: 100%;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Xplor", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}

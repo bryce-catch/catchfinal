@@ -1,0 +1,16 @@
+# Line endings: auto-detect, normalize to LF on commit
+* text=auto
+
+# Scripts: force LF
+*.sh text eol=lf
+
+# Binary files: no line-ending conversion or diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
