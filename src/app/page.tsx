@@ -47,8 +47,24 @@ export default function Home() {
         <div className="relative w-screen max-w-none">
           <section
             id="home"
-            className="relative flex min-h-[60vh] flex-col items-center justify-center px-4 py-16 text-center sm:py-20 md:py-24"
+            className="relative flex min-h-[60vh] flex-col items-center justify-center overflow-hidden px-4 py-16 text-center sm:py-20 md:py-24"
           >
+            {/* Brand background: soft shapes + wordmark */}
+            <div className="pointer-events-none absolute inset-0 -z-10">
+              <div className="absolute -top-32 left-[-10%] h-64 w-64 rounded-full bg-[#2CB7AE]/20 blur-3xl sm:h-80 sm:w-80" />
+              <div className="absolute bottom-[-56px] right-[-10%] h-72 w-72 rounded-full bg-[#ff6b4a]/20 blur-3xl sm:h-80 sm:w-80" />
+              <div className="absolute inset-y-8 left-1/2 w-[120%] -translate-x-1/2 opacity-[0.06]">
+                <div className="relative mx-auto h-full w-full max-w-4xl">
+                  <Image
+                    src="/catch-wordmark.png"
+                    alt="CATCH wordmark"
+                    fill
+                    className="object-contain object-center"
+                    sizes="(min-width: 1024px) 56rem, 100vw"
+                  />
+                </div>
+              </div>
+            </div>
             {/* Bottom right: logo with tiny text bubble + facts */}
             <div className="absolute bottom-2 right-2 flex flex-col items-end gap-2 sm:bottom-4 sm:right-4">
               <div className="relative">
@@ -68,7 +84,7 @@ export default function Home() {
               </div>
             </div>
             <h1 className="text-5xl font-normal tracking-tight text-[#253158] sm:text-6xl md:text-7xl lg:text-8xl">
-              catch
+              CATCH
             </h1>
             <p className="mt-8 max-w-2xl text-base leading-relaxed text-[#3A426A] sm:mt-10 sm:text-lg md:text-xl">
               We strive to &quot;catch&quot; the children who fall through the
