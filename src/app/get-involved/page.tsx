@@ -174,6 +174,7 @@ export default function GetInvolvedPage() {
               </p>
               <button
                 type="button"
+                onClick={() => (window.location.href = "mailto:social@catch-inc.org?subject=Partnering%20with%20CATCH")}
                 className="mt-5 inline-flex rounded-full bg-[#ff6b4a] px-6 py-2.5 text-xs font-semibold text-white shadow-md shadow-[#ff6b4a]/40 transition hover:bg-[#f55c38]"
               >
                 Contact Our Team
@@ -194,9 +195,6 @@ export default function GetInvolvedPage() {
                   />
                 </div>
               </div>
-              <p className="mt-2 text-xs text-[#6b7280]">
-                Logos rotate every few seconds.
-              </p>
             </div>
           </div>
         </section>
@@ -244,7 +242,7 @@ export default function GetInvolvedPage() {
             partners. Reach out and we&apos;ll follow up with next steps.
           </p>
           <a
-            href="mailto:info@catchnonprofit.org"
+            href="mailto:social@catch-inc.org"
             className="mt-4 inline-block text-sm font-semibold text-[#ffdac4] underline underline-offset-4"
           >
             info@catchnonprofit.org
