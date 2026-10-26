@@ -245,7 +245,7 @@ export default function GetInvolvedPage() {
             href="mailto:social@catch-inc.org"
             className="mt-4 inline-block text-sm font-semibold text-[#ffdac4] underline underline-offset-4"
           >
-            info@catchnonprofit.org
+            social@catch-inc.org
           </a>
         </section>
       </main>
