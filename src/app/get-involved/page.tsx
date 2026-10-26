@@ -119,26 +119,26 @@ export default function GetInvolvedPage() {
               <ul className="mt-3 space-y-3 text-sm text-[#4b4f63]">
                 <li
                   className="cursor-pointer rounded-2xl bg-[#fff7eb] px-4 py-3 shadow-sm transition hover:bg-[#ffeeda]"
-                  onClick={() => openEventForm("Monthly Build Night")}
+                  onClick={() => openEventForm("Weekly Build Night")}
                 >
                   <p className="font-semibold text-[#253158]">
-                    Monthly Build Night
+                    Weekly Build Night
                   </p>
                   <p className="text-xs">
-                    First Thursday, 6–8pm • On-campus makerspace
+                    Campus-specific times • On-campus
                   </p>
                 </li>
                 <li
                   className="cursor-pointer rounded-2xl bg-[#fff7eb] px-4 py-3 shadow-sm transition hover:bg-[#ffeeda]"
                   onClick={() =>
-                    openEventForm("Weekend Adapt-a-Toy Workshop")
+                    openEventForm("Special Events")
                   }
                 >
                   <p className="font-semibold text-[#253158]">
-                    Weekend Adapt-a-Toy Workshop
+                    Special Events
                   </p>
                   <p className="text-xs">
-                    Quarterly Saturday session for new volunteers.
+                    Campus-specific special events.
                   </p>
                 </li>
                 <li
